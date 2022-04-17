@@ -21,7 +21,7 @@ func main() {
 	fmt.Println("==== circle")
 	fmt.Println("area   : ", twoDimensionalFigure.area())
 	fmt.Println("perimeter : ", twoDimensionalFigure.perimeter())
-	fmt.Println("radius : ", twoDimensionalFigure.(circle).radius)
+	fmt.Println("radius : ", twoDimensionalFigure.(circle).radius())
 
 }
 
